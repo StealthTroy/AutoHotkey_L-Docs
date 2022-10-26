@@ -1,0 +1,12 @@
+~$LButton::
+While GetKeyState("LButton", "P"){
+Sleep 30
+SendInput {b down}
+Sleep 30
+SendInput {b up}
+Sleep 30
+SendInput {c down}
+Sleep 30
+SendInput {c up}
+}
+return
